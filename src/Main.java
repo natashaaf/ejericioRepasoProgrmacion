@@ -44,13 +44,9 @@ public class Main {
         for (int i = 0; i < nums.length; i++) {
             System.out.println("Ingrese el número: ");
             nums[i] = sc.nextInt();
-        }
-        if (esMultiploTres(nums)) {
-            System.out.println("Hay número negativo.");
-        } else {
-            System.out.println("No hay número negativo.");
-        }
 
+            esMultiploTres(nums);
+        }
 
     }
     public static boolean esMultiploTres(int[] nums){
